@@ -1,0 +1,13 @@
+--------- beginning of crash
+E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.example.myapp, PID: 12345
+    java.lang.NullPointerException: Attempt to invoke virtual method on a null object reference
+        at com.a.b.c.doWork(Unknown Source:12)
+        at com.a.b.d.execute(Unknown Source:3)
+        at com.example.myapp.ui.a.onCreate(Unknown Source:88)
+        at android.app.Activity.performCreate(Activity.java:8290)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1329)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3608)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3792)
+    Caused by: java.lang.NullPointerException
+        at com.a.b.c.doWork(Unknown Source:25)

@@ -1,0 +1,6 @@
+com.example.network.Worker -> com.a.b.c:
+    void doWork() -> doWork
+com.example.network.Executor -> com.a.b.d:
+    void execute() -> execute
+com.example.myapp.ui.MainActivity -> com.example.myapp.ui.a:
+    void onCreate(android.os.Bundle) -> onCreate

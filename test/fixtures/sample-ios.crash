@@ -1,0 +1,50 @@
+Incident Identifier: A1B2C3D4-E5F6-7890-ABCD-EF1234567890
+CrashReporter Key:   abc123def456
+Hardware Model:      iPhone14,2
+Process:             MyApp [1234]
+Path:                /private/var/containers/Bundle/Application/ABC/MyApp.app/MyApp
+Identifier:          com.example.myapp
+Version:             2.3.1 (Build 42)
+AppStoreTools:       14E300c
+AppVariant:          1:iPhone14,2:16
+Code Type:           ARM-64 (Native)
+Role:                Foreground
+Parent Process:      launchd [1]
+Coalition:           com.example.myapp [678]
+
+Date/Time:           2026-06-21 14:32:11.123 +0100
+Launch Time:         2026-06-21 14:30:00.000 +0100
+OS Version:          iPhone OS 17.2 (21C62)
+Release Type:        User
+Baseband Version:    2.01.04
+Report Version:      104
+
+Exception Type:  EXC_BAD_ACCESS (SIGSEGV)
+Exception Subtype: KERN_INVALID_ADDRESS at 0x0000000000000000
+Exception Codes: 0x0000000000000001, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Signal: Segmentation fault: 11
+Termination Reason: Namespace SIGNAL, Code 0xb
+Terminating Process: exc handler [1234]
+Triggered by Thread:  0
+
+Thread 0 name:  Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   MyApp                         0x0000000100d4e2a4 0x100a00000 + 3466916
+1   MyApp                         0x0000000100d4f118 0x100a00000 + 3469592
+2   MyApp                         0x0000000100c8b320 0x100a00000 + 2667296
+3   UIKitCore                     0x00000001a9c3d210 0x1a9800000 + 774672
+4   UIKitCore                     0x00000001a9c3a118 0x1a9800000 + 762136
+5   UIKitCore                     0x00000001a9c4f200 0x1a9800000 + 848384
+6   libswiftCore.dylib            0x00000001a2b4f3c0 0x1a2a00000 + 1373120
+
+Thread 1:
+0   libsystem_kernel.dylib        0x00000001a2e1c234 0x1a2e00000 + 115252
+1   libsystem_pthread.dylib       0x00000001a2f45118 0x1a2f00000 + 283928
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1: 0x00000001c4e3f200
+
+Binary Images:
+0x100a00000 - 0x100f84000 +MyApp arm64  <A1B2C3D4-E5F6-7890-ABCD-EF1234567890> /var/containers/Bundle/Application/ABC/MyApp.app/MyApp
+0x1a9800000 - 0x1aa000000 UIKitCore arm64  <11111111-2222-3333-4444-555555555555> /System/Library/Frameworks/UIKitCore.framework/UIKitCore

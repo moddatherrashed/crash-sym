@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.android.bundle",
+  "sources": ["src/screens/ProfileScreen.tsx"],
+  "names": ["handleSubmit"],
+  "mappings": "AAAA",
+  "sourcesContent": ["export function handleSubmit() { throw new Error('test'); }"]
+}

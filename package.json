@@ -1,0 +1,54 @@
+{
+  "name": "crash-sym",
+  "version": "1.0.0",
+  "description": "Offline crash symbolication CLI for iOS, Android, and React Native — no cloud required",
+  "main": "dist/cli.js",
+  "bin": {
+    "crash-sym": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js",
+    "clean": "rm -rf dist",
+    "prebuild": "yarn clean",
+    "prepublishOnly": "npm run build && npm test",
+    "test": "node --require ts-node/register --test test/*.test.ts",
+    "test:ios": "ts-node src/cli.ts symbolicate test/fixtures/sample-ios.crash --platform ios --verbose",
+    "test:android": "ts-node src/cli.ts symbolicate test/fixtures/sample-android.crash --platform android --mapping test/fixtures/mapping.txt --verbose",
+    "test:rn": "ts-node src/cli.ts symbolicate test/fixtures/sample-rn.crash --platform rn --verbose",
+    "test:all": "yarn test && yarn test:ios && yarn test:android && yarn test:rn"
+  },
+  "keywords": [
+    "crash",
+    "symbolication",
+    "ios",
+    "android",
+    "react-native",
+    "dsym",
+    "proguard",
+    "source-map",
+    "cli",
+    "debugging",
+    "mobile"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^12.1.0",
+    "source-map": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

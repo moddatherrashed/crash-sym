@@ -1,0 +1,14 @@
+TypeError: Cannot read property 'name' of undefined
+
+This error is located at:
+    in ProfileScreen
+    in RCTView
+    in RCTView
+
+at t (index.android.bundle:1:203847)
+at u (index.android.bundle:1:89234)
+at handleSubmit (index.android.bundle:1:445621)
+at onPress (index.android.bundle:1:112038)
+at n (index.android.bundle:1:56921)
+at index.android.bundle:1:23401
+at index.android.bundle:1:8934

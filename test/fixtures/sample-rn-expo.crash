@@ -1,0 +1,5 @@
+TypeError: Cannot read property 'user' of undefined
+
+at handleSubmit (address at _expo/static/js/index-abc123.bundle:1:120)
+at onPress (address at _expo/static/js/index-abc123.bundle:1:340)
+at anonymous (_expo/static/js/index-abc123.bundle:1:890)
