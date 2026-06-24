@@ -1,10 +1,34 @@
-# crash-sym
+<p align="center">
+  <a href="https://moddatherrashed.github.io/crash-sym/">
+    <img src="docs/logo.svg" alt="crash-sym logo" width="80" />
+  </a>
+</p>
 
-> Offline crash symbolication CLI for iOS, Android, and React Native — no cloud, no vendor lock-in.
+<h1 align="center">crash-sym</h1>
+
+<p align="center">
+  Offline crash symbolication CLI for iOS, Android, and React Native — no cloud, no vendor lock-in.
+</p>
+
+<p align="center">
+  <a href="https://moddatherrashed.github.io/crash-sym/"><strong>Website</strong></a>
+  ·
+  <a href="https://www.npmjs.com/package/crash-sym">npm</a>
+  ·
+  <a href="https://github.com/moddatherrashed/crash-sym">GitHub</a>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/crash-sym"><img src="https://img.shields.io/npm/v/crash-sym?style=flat-square&color=3ddc84" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/crash-sym"><img src="https://img.shields.io/npm/l/crash-sym?style=flat-square" alt="MIT license" /></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/node/v/crash-sym?style=flat-square" alt="node version" /></a>
+</p>
 
 ```bash
 crash-sym symbolicate crash.txt --dsym ./MyApp.dSYM --output report.html --format html
 ```
+
+> **Docs & demos:** [moddatherrashed.github.io/crash-sym](https://moddatherrashed.github.io/crash-sym/)
 
 ---
 

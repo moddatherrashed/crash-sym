@@ -1,0 +1,14 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="crash-sym logo">
+  <rect width="80" height="80" rx="18" fill="#13151f"/>
+  <rect x="10" y="22" width="22" height="6" rx="2" fill="#ff4d4d" opacity="0.9"/>
+  <rect x="10" y="32" width="16" height="6" rx="2" fill="#444" opacity="0.7"/>
+  <rect x="10" y="42" width="18" height="6" rx="2" fill="#444" opacity="0.6"/>
+  <rect x="10" y="52" width="14" height="6" rx="2" fill="#444" opacity="0.4"/>
+  <polyline points="38,18 34,38 40,46 32,62 38,70" stroke="#ff4d4d" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <line x1="34" y1="40" x2="44" y2="40" stroke="#ffc947" stroke-width="2" stroke-linecap="round"/>
+  <polyline points="40,34 46,40 40,46" stroke="#ffc947" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="48" y="22" width="22" height="6" rx="2" fill="#3ddc84" opacity="0.9"/>
+  <rect x="48" y="32" width="26" height="6" rx="2" fill="#4d9fff" opacity="0.7"/>
+  <rect x="48" y="42" width="20" height="6" rx="2" fill="#4d9fff" opacity="0.6"/>
+  <rect x="48" y="52" width="24" height="6" rx="2" fill="#4d9fff" opacity="0.4"/>
+</svg>
